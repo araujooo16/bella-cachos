@@ -28,7 +28,7 @@
                 <a href="quem-somos.html">Quem somos</a>
                 <a href="servicos.html">Serviços</a>
                 <a href="resultados.html">Resultados</a>
-                <a href="produtos.html">Produtos</a>
+                <!-- PRODUTOS OCULTO por enquanto. Para voltar a exibir, remova os marcadores de comentário: <a href="produtos.html">Produtos</a> -->
                 <a href="cursos.html">Cursos</a>
                 <a href="contato.html">Contato</a>
             </nav>
@@ -48,20 +48,20 @@
         </div>
 
         <h1>
-            Seu cabelo.<br>
-            Sua beleza.<br>
-            <em>Seus cachos.</em>
+            Seu corte.<br>
+            Seu cacho.<br>
+            <em>Sua identidade.</em>
         </h1>
 
         <p class="hero-description">
-            Beleza, cuidado e autoestima para valorizar cada curva
-            do seu cabelo.
+            Cortes pensados para a sua curvatura, feitos para
+            valorizar cada cacho do seu jeito.
         </p>
 
         <div class="hero-actions">
 
-            <a href="contato.html" class="cta">
-              Agendar meu horário
+            <a href="contato.html?servico=Corte" class="cta">
+              Agendar meu corte
              <span>→</span>
             </a>
 
@@ -123,6 +123,56 @@
             Conheça nossos serviços
             <span>→</span>
         </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     DESTAQUE: CORTE
+     (textos provisórios: troque pelas palavras da Izabella;
+      troque a foto por uma foto oficial de corte)
+     ========================================= -->
+
+<section class="corte-section" id="corte">
+
+    <div class="corte-inner">
+
+        <div class="corte-content">
+
+            <span class="section-label">
+                Nossa especialidade
+            </span>
+
+            <h2>
+                O corte certo muda
+                <em>tudo no seu cacho.</em>
+            </h2>
+
+            <p>
+                Cada curvatura pede um corte diferente. Antes de cortar,
+                a gente olha como o seu cabelo cai, se movimenta e se comporta
+                no dia a dia, para o resultado valorizar o seu cacho.
+            </p>
+
+            <ul class="corte-lista">
+                <li>Avaliação da sua curvatura, volume e textura</li>
+                <li>Corte que respeita o movimento natural dos fios</li>
+                <li>Orientação para manter o formato em casa</li>
+            </ul>
+
+            <a href="contato.html?servico=Corte" class="final-button">
+                Agendar meu corte
+                <span>→</span>
+            </a>
+
+        </div>
+
+        <div class="corte-foto">
+            <!-- TROCAR pela foto oficial de corte -->
+            <img src="img/resultado-06.jpg" alt="Resultado de corte em cabelo cacheado da Bella Cachos">
+        </div>
 
     </div>
 
@@ -225,9 +275,11 @@
 
     <div class="services-grid">
 
-        <article class="service-card">
+        <article class="service-card service-card-destaque">
 
             <span class="service-number">01</span>
+
+            <span class="service-selo">Especialidade</span>
 
             <h3>
                 Corte
@@ -367,8 +419,9 @@
 
 <section class="extras-section">
 
-    <div class="extras-grid">
-
+    <div class="extras-grid extras-grid-single">
+        <!-- CARD DE PRODUTOS OCULTO por enquanto (página produtos.html continua pronta).
+             Para voltar: apague este comentário, restaure o card abaixo e remova a classe "extras-grid-single" do div acima.
         <a href="produtos.html" class="extra-card">
 
             <div class="extra-content">
@@ -393,31 +446,34 @@
             </div>
 
         </a>
+        -->
 
-        <a href="cursos.html" class="extra-card extra-card-dark">
 
-            <div class="extra-content">
+        <a href="cursos.html" class="curso-destaque">
 
-                <span class="section-label">
-                    Compartilhando conhecimento
-                </span>
+       <div class="curso-destaque-texto">
 
-                <h2>
-                    Cursos
-                </h2>
+         <span class="curso-selo">Inscrições abertas</span>
 
-                <p>
-                    Aprenda técnicas e conhecimentos
-                    para cuidar e trabalhar com curvaturas.
-                </p>
+         <span class="section-label">Compartilhando conhecimento</span>
 
-                <span class="extra-link">
-                    Conhecer cursos →
-                </span>
+         <h2>Aprenda a trabalhar com <em>curvaturas.</em></h2>
 
-            </div>
+         <p>
+            Técnicas e conhecimentos para cuidar de cabelos
+            cacheados e crespos, direto de quem vive isso todos os dias.
+         </p>
 
-        </a>
+         <span class="curso-botao">Conhecer cursos <span>→</span></span>
+
+        </div>
+
+     <div class="curso-destaque-foto">
+        <!-- TROCAR pela foto oficial dos cursos -->
+        <img src="img/resultado-05.jpg" alt="Cursos da Bella Cachos">
+    </div>
+
+      </a>
 
     </div>
 
