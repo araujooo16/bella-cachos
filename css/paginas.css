@@ -451,3 +451,30 @@
 
     .mapa iframe { height: 280px; }
 }
+
+
+/* ---------- Serviço em destaque (Corte) ---------- */
+
+.servico-destaque {
+    padding: 44px 32px;
+    background: var(--panel);
+    border-left: 4px solid var(--terracota);
+}
+
+.servico-selo {
+    display: block;
+    width: fit-content;
+    margin-top: 14px;
+    padding: 5px 12px;
+    background: var(--terracota);
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+    .servico-destaque { padding: 34px 22px; }
+}
